@@ -1,0 +1,139 @@
+.header {
+
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    /* margin-right: 40px; */
+}
+
+.middle {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu, .my-pfp-btn, .search-btn, .voice-search-btn, .yt-logo, .icon:hover {
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    margin: 0 24px 0 24px;
+    height: 24px;
+}
+
+.yt-logo {
+    height: 20px;
+}
+
+.searchbar {
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.searchbar::placeholder {
+    font-size: 16px;
+    /* padding-left: 10px; */
+}
+
+.search-icon {
+
+    padding-top: 5px;
+    height: 24px;
+    width: 50px;
+}
+
+.voice-search-icon {
+    height: 25px;
+    width: 45px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+}
+
+.search-btn,
+.voice-search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.voice-search-btn {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    border: none;
+}
+
+.right {
+
+    display: flex;
+    align-items: center;
+    width: 182px;
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-left: 29px;
+    flex-shrink: 0;
+}
+
+.right-btn {
+    background-color: white;
+    height: 40px;
+    border: none;
+}
+
+.icon {
+    flex: 1;
+    height: 24px;
+}
+
+.my-pfp {
+    height: 32px;
+    border-radius: 16px;
+}
+
+.my-pfp-btn {
+    
+    border: none;
+    background-color: white;
+}
